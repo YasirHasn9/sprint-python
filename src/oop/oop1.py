@@ -13,7 +13,43 @@
 #
 # e.g.
 #
+
 # class Whatever:
 #     pass
 #
 # Put a comment noting which class is the base class
+
+class Vehicle:
+    # this is the base
+    pass
+
+
+class FlightVehicle(Vehicle):
+    pass
+
+
+class Starship(FlightVehicle):
+    pass
+
+
+class Airplane(FlightVehicle):
+    pass
+
+
+class GroundVehicle(Vehicle):
+    # this is class is instance object of the class Vehicle
+    pass
+
+
+class Car(GroundVehicle):
+    # instance object of the class GroundVehicle
+    pass
+
+
+class Motorcycle(GroundVehicle):
+    # instance object of the class GroundVehicle
+    pass
+
+
+# class Starship(Vehicle):
+#     pass
